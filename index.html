@@ -35,25 +35,35 @@
             </div>     
         </div>
     </div>
-    <div id="navbar">
-        <div class="row">
-            <div class="col-lg-2">
+    <nav class="navbar navbar-expand" id="navbar">
+          
+         <!-- Toggler/collapsibe Button -->
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+ 
+         <!-- Navbar links -->
+         <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+               <li class="nav-item">
                 <a href="#photo">À propos</a>
-            </div>
-            <div class="col-lg-2">
-            <a href="#experience">Projects</a>
-            </div>
-            <div class="col-lg-2">
-            <a href="#formation">Formation</a>
-            </div>
-            <div class="col-lg-2">
-            <a href="#competence">Competences</a>
-            </div>
-            <div class="col-lg-3">
-            <a href="#centre_interet">Centre d'interets</a>
-            </div>
-        </div>
-    </div>
+               </li>
+               <li class="nav-item">
+                <a href="#experience">Projects</a>
+               </li>
+               <li class="nav-item">
+                <a href="#formation">Formation</a>
+               </li>
+               <li class="nav-item">
+                <a href="#competence">Competences</a>
+               </li>
+               <li class="nav-item">
+                <a href="#centre_interet">Centre d'interets</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+
     <div class="content">
     <div class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -255,7 +265,7 @@
               <div class="col"><a class="social-inner" href="https://www.linkedin.com/in/sofiane-ayat-5ab650130/"><span class="icon mdi mdi-youtube-play"></span><span>linkedin</span></a></div>
             </div>
           </footer>   
-          <script>
+          {# <script>
                 window.onscroll = function() {myFunction()};
                 
                 var navbar = document.getElementById("navbar");
@@ -268,6 +278,6 @@
                     navbar.classList.remove("sticky");
                   }
                 }
-                </script>  
+                </script>   #}
 </body>
 </html>
